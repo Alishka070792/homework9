@@ -30,14 +30,44 @@ public class Main {
                 minSum = sumFirst;
             }
         }
-        float averageSum = (float) sum  / inputArray1.length;
-        outputArray1 [0] = sum;
-        outputArray1 [1] = maxSum;
-        outputArray1 [2] = minSum;
-        outputArray1 [3] = (float) averageSum;
-        System.out.println(Arrays.toString(outputArray1));
+        float averageSum = (float) sum / inputArray1.length;
+        outputArray1[0] = sum;
+        outputArray1[1] = maxSum;
+        outputArray1[2] = minSum;
+        outputArray1[3] = averageSum;
         System.out.println(Arrays.toString(inputArray1));
-
+        System.out.println(Arrays.toString(outputArray1));
+        System.out.println();
     }
 
+    // Задача 2
+    public static void task2() {
+        System.out.println("Task 2");
+        int[] inputArray2 = {200, 300, 400, 500, 600};
+        float[] outputArray2 = new float[inputArray2.length];
+        int index = 0;
+        for (int salary : inputArray2) {
+            outputArray2[index] = ((float) salary / 100 * 13);
+            index++;
+        }
+        System.out.println(Arrays.toString(inputArray2));
+        System.out.println(Arrays.toString(outputArray2));
+        System.out.println();
+    }
+
+    // Задача 3
+    public static void task3() {
+        System.out.println("Task 3");
+    }
+
+    // Задача 4
+    public static void task4() {
+        System.out.println("Task 4");
+    }
+
+    // Задача 5
+    public static void task5() {
+        System.out.println("Task 5");
+
+    }
 }
